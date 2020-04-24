@@ -17,15 +17,5 @@
   </dependencies>
   <build>
     <finalName>Demo2</finalName>
-<plugin>
-   <groupId>org.codehaus.mojo</groupId>
-   <artifactId>tomcat-maven-plugin</artifactId>
-   <version>1.1</version>
-   <configuration>
-      <url>http://localhost:8080/manager/text</url>
-      <server>TomcatServer</server>
-      <path>/javaCodeGeeks</path>
-   </configuration>
-</plugin>
   </build>
 </project>
